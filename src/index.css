@@ -80,9 +80,41 @@ main {
   font-family: "Roboto", sans-serif;
 }
 
-.weatehr-app-unit {
+.weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
+}
+
+.weather-forecast {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 38px;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #f65282;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+.weather-forecast-temperature {
+  padding: 0 10px;
 }
 
 footer {
